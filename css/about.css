@@ -142,7 +142,8 @@
 /* ==================================== MEDIA QUERIES PHONE ======================== */
 @media screen and (max-width: 600px) {
     .achievements_card {
-        gap: 0.7rem;
+        grid-template-columns: 1fr; /* Ubah menjadi satu kolom */
+        gap: 0.5rem;
     }
 
     .team_container {
