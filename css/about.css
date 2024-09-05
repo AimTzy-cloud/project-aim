@@ -144,11 +144,10 @@
     .achievements_card {
         grid-template-columns: 1fr 1fr;
         gap: 0.7rem;
+        overflow: hidden;
     }
 
-    .about_achievements-left img {
-        width: 30%;
-    }
+    
 
     .team_container {
         grid-template-columns: 1fr 1fr;
