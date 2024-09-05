@@ -142,12 +142,8 @@
 /* ==================================== MEDIA QUERIES PHONE ======================== */
 @media screen and (max-width: 600px) {
     .achievements_card {
-        grid-template-columns: 1fr 1fr;
         gap: 0.7rem;
-        overflow: hidden;
     }
-
-    
 
     .team_container {
         grid-template-columns: 1fr 1fr;
